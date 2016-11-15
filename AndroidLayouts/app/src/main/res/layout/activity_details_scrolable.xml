@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="@dimen/details_top_margin"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/details_top_margin"
+            android:layout_toEndOf="@+id/iv_image"
+            android:text="Adina Mihaescu"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_main"
+            android:layout_toEndOf="@+id/iv_image"
+            android:text="Senior Developer"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_image"
+            android:layout_marginEnd="@dimen/details_margin_end"
+            android:layout_marginStart="@dimen/details_margin_start"
+            android:layout_marginTop="@dimen/details_top_margin"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_email_black_18dp"
+            android:text="adina.mihaescu@endava.com"
+            android:textSize="@dimen/details_medium_text_size" />
+
+        <TextView
+            android:id="@+id/tv_office"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_mail"
+            android:layout_marginEnd="@dimen/details_margin_end"
+            android:layout_marginStart="@dimen/details_margin_start"
+            android:layout_marginTop="@dimen/details_top_margin"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_location_on_black_18dp"
+            android:text="AFI3"
+            android:textSize="@dimen/details_medium_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_office"
+            android:layout_marginEnd="@dimen/details_margin_end"
+            android:layout_marginStart="@dimen/details_margin_start"
+            android:layout_marginTop="@dimen/details_top_margin"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at erat mattis justo varius fringilla quis quis turpis. Maecenas eget massa facilisis, suscipit erat ut, aliquet justo. Fusce magna sapien, tempor et scelerisque quis, porttitor eget diam. Vivamus sit amet porttitor magna."
+            android:textSize="@dimen/details_medium_text_size" />
+    </RelativeLayout>
+</ScrollView>

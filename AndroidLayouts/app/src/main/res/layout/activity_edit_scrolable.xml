@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="@dimen/edit_image_margin"
+            android:src="@mipmap/ic_launcher" />
+
+        <EditText
+            android:id="@+id/tv_main"
+            style="@style/SingleLineEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/edit_margin_end"
+            android:layout_marginTop="@dimen/edit_top_margin"
+            android:layout_toEndOf="@+id/iv_image"
+            android:hint="@string/edit_hint_name"
+            android:textSize="@dimen/edit_text_size" />
+
+        <EditText
+            android:id="@+id/tv_description"
+            style="@style/SingleLineEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_main"
+            android:layout_marginRight="@dimen/edit_margin_end"
+            android:layout_toEndOf="@+id/iv_image"
+            android:hint="@string/edit_hint_position"
+            android:textSize="@dimen/edit_text_size" />
+
+        <EditText
+            android:id="@+id/tv_mail"
+            style="@style/SingleLineEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_image"
+            android:layout_marginEnd="@dimen/edit_margin_end"
+            android:layout_marginStart="@dimen/edit_margin_start"
+            android:layout_marginTop="@dimen/edit_top_margin"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_email_black_18dp"
+            android:hint="@string/edit_hint_mail"
+            android:textSize="@dimen/edit_text_size" />
+
+        <EditText
+            android:id="@+id/tv_office"
+            style="@style/SingleLineEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_mail"
+            android:layout_marginEnd="@dimen/edit_margin_end"
+            android:layout_marginStart="@dimen/edit_margin_start"
+            android:layout_marginTop="@dimen/edit_top_margin"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_location_on_black_18dp"
+            android:hint="@string/edit_hint_office"
+            android:textSize="@dimen/edit_text_size" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_office"
+            android:layout_marginEnd="@dimen/edit_margin_end"
+            android:layout_marginStart="@dimen/edit_margin_start"
+            android:layout_marginTop="@dimen/edit_top_margin"
+            android:hint="@string/edit_hint_decription"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:maxLines="5"
+            android:textSize="@dimen/edit_text_size" />
+
+    </RelativeLayout>
+</ScrollView>

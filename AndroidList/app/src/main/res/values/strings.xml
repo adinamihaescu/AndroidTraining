@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">AndroidList</string>
+
+    <array name="employee_name">
+        <item>Ioan Slavici</item>
+        <item>Mihai Eminescu</item>
+        <item>Ion Creanga</item>
+        <item>George Bacovia</item>
+        <item>Ana Blandiana</item>
+        <item>Mircea Cartarescu</item>
+        <item>Mihail Sadoveanu</item>
+        <item>Liviu Rebreanu</item>
+        <item>Mircea Eliade</item>
+        <item>George Cosbuc</item>
+        <item>Gellu Naum</item>
+        <item>Grigore Alexandrescu</item>
+    </array>
+
+    <array name="employee_position">
+        <item>Senior Developer</item>
+        <item>Discipline Lead, Development</item>
+        <item>Senior Developer</item>
+        <item>Discipline Lead, Development</item>
+        <item>Development Consultant, Development</item>
+        <item>Developer</item>
+        <item>Senior Developer</item>
+        <item>Senior Developer</item>
+        <item>Development Consultant, Development</item>
+        <item>Senior Developer</item>
+        <item>Junior Developer</item>
+        <item>Senior Developer</item>
+    </array>
+</resources>

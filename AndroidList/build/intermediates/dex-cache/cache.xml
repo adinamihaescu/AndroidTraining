@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\amihaescu\Endava\Android training\AndroidList\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\amihaescu\Endava\Android training\AndroidList\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_5339afc69361a3857559452252a29510011ff05a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amihaescu\Endava\Android training\AndroidList\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\amihaescu\Endava\Android training\AndroidList\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_aeabb64b41f97b4faebd2fc8bd37029308ca872e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amihaescu\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\amihaescu\Endava\Android training\AndroidList\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_cc0457697d1ac0aae067398f2cd8ac2b0db00b5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amihaescu\Endava\Android training\AndroidList\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\amihaescu\Endava\Android training\AndroidList\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_cdd1a4888fb1df9d016191a8c9b8b4cbb5df337b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amihaescu\Endava\Android training\AndroidList\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\amihaescu\Endava\Android training\AndroidList\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_29b0582c6f3e764c586d81028ce39aa1e2f2ae93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amihaescu\Endava\Android training\AndroidList\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\amihaescu\Endava\Android training\AndroidList\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_b9dd337ac57c21bd73032408cdf2f95debd44bcf.jar" />
+    </item>
+
+</items>

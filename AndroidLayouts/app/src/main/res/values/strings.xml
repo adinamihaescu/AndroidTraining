@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Layouts</string>
+
+    <string name="edit_hint_name">Name</string>
+    <string name="edit_hint_position">Position</string>
+    <string name="edit_hint_mail">Mail</string>
+    <string name="edit_hint_office">Office</string>
+    <string name="edit_hint_decription">Description</string>
+</resources>
