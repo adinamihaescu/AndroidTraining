@@ -1,0 +1,525 @@
+<resources>
+    <string name="app_name">AndroidTutorial</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="first_chapter_text">Project Structure</string>
+    <string name="second_chapter_text">Activities</string>
+    <string name="third_chapter_text">Postcards</string>
+    <string name="fourth_chapter_text">Places to see</string>
+    <string name="fifth_chapter_text">Tourist Traps</string>
+    <string name="sixth_chapter_text">Intents</string>
+    <string name="seventh_chapter_text">Photography</string>
+    <string name="eighth_chapter_text">Travel</string>
+    <string name="ninth_chapter_text">Your guides</string>
+    <string name="welcome_title">Welcome</string>
+    <string name="welcome_message">Welcome to the easy Beginner\'s guide to Android that will show you how to unleash the power of Android! Every day hundreds of thousands of Android phones and tablets are sold, it\'s the most popular smartphone all over the world.</string>
+    <string name="slide_title_2">Android Training 101</string>
+    <string name="slide_text_2">Here you\'ll find training classes that describe how to accomplish a specific task with code samples you can re-use in your app.The first training guides below teach you the essentials for Android app development. If you\'re a new Android app developer, you should complete each of these classes in order.</string>
+    <string name="slide_title_3">Let\'s Begin</string>
+    <string name="slide_text_3">The wireless devices are more of a necessity than a luxurious item, making mobile application development training a lucrative sector today.
+The boost in mobile computing adds a unique and novel dimension to the application programming sector.  In fact, it allows the world to be more responsive and connected through a single device as tiny as a smart phone.</string>
+    <string name="get_started_button">Get Started</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="create_activity_title">Create your activity</string>
+    <string name="start_activity_title">Start your activity</string>
+    <string name="resume_activity_title">Resume your activity</string>
+    <string name="pause_activity_title">Pause your activity</string>
+    <string name="stop_activity_title">Stop your activity</string>
+    <string name="pause_activity_toast">Your activity has been paused</string>
+    <string name="stop_activity_toast">Your activity has been stopped</string>
+    <string name="snack_bar_message">You have added %s to your favourite places</string>
+    <string name="add_marker">Add Marker</string>
+    <string name="my_marker">My Marker</string>
+    <string name="hint_latitude">Latitude</string>
+    <string name="hint_longitude">Longitude</string>
+
+    <string name="button_stop_activity">Stop Activity</string>
+    <string name="stop_activity_message">We have stopped the snail!!!!</string>
+
+
+    <array name="destination_name">
+        <item>Hofburg Palace</item>
+        <item>Louvre</item>
+        <item>Buda Castle</item>
+        <item>Peles Castle</item>
+        <item>Skansen Museum</item>
+        <item>Schonbrunn Palace</item>
+        <item>Edinburgh Castle</item>
+        <item>Mont Saint-Michel</item>
+        <item>Hohenzollern Castle</item>
+        <item>Meteora</item>
+        <item>Vergina</item>
+    </array>
+
+    <array name="destination_info">
+        <item>Hofburg Palace is the former imperial palace in the centre of Vienna, Austria. Part of
+            the palace forms the official residence and workplace of the President of Austria. Built
+            in the 13th century and expanded in the centuries since, the palace has housed some of
+            the most powerful people in European and Austrian history, including monarchs of the
+            Habsburg dynasty, rulers of the Austro-Hungarian Empire. It was the principal imperial
+            winter residence, as Schönbrunn Palace was their summer residence.The Hofburg area has
+            been the documented seat of government since 1279 for various empires and republics.[1]
+            The Hofburg has been expanded over the centuries to include various residences (with the
+            Amalienburg), the Imperial Chapel (Hofkapelle or Burgkapelle), the Naturhistorisches
+            Museum and Kunsthistorisches Museum, the Austrian National Library (Hofbibliothek), the
+            Imperial Treasury (Schatzkammer), the Burgtheater, the Spanish Riding School
+            (Hofreitschule), the Imperial Horse Stables (Stallburg and Hofstallungen), and the
+            Hofburg Congress Center.
+            The Hofburg faces the Heldenplatz ordered under the reign of Emperor Francis Joseph, as
+            part of what was to become a Kaiserforum that was never completed.
+            Numerous architects have executed work at the Hofburg as it expanded, notably the
+            Italian architect-engineer Filiberto Luchese (the Leopoldischiner Trakt), Lodovico
+            Burnacini and Martino and Domenico Carlone, the Baroque architects Lukas von Hildebrandt
+            and Joseph Emanuel Fischer von Erlach (the Reichschancelry Wing and the Winter Riding
+            School), Johann Fischer von Erlach (the library), and the architects of the grandiose
+            Neue Burg built between 1881 and 1913.
+        </item>
+        <item>The Louvre or the Louvre Museum is the world\'s largest museum and a historic monument
+            in Paris, France. A central landmark of the city, it is located on the Right Bank of the
+            Seine in the 1st arrondissement (ward). Nearly 35,000 objects from prehistory to the
+            21st century are exhibited over an area of 60,600 square metres (652,300 square feet).
+            The Louvre is the world\'s second most visited museum after the Palace Museum in China,
+            receiving more than 9.26 million visitors in 2014.
+            The museum is housed in the Louvre Palace, originally built as a fortress in the late
+            12th century under Philip II. Remnants of the fortress are visible in the basement of
+            the museum. The building was extended many times to form the present Louvre Palace. In
+            1682, Louis XIV chose the Palace of Versailles for his household, leaving the Louvre
+            primarily as a place to display the royal collection, including, from 1692, a collection
+            of ancient Greek and Roman sculpture.[2] In 1692, the building was occupied by the
+            Académie des Inscriptions et Belles Lettres and the Académie Royale de Peinture et de
+            Sculpture, which in 1699 held the first of a series of salons. The Académie remained at
+            the Louvre for 100 years.[3] During the French Revolution, the National Assembly decreed
+            that the Louvre should be used as a museum to display the nation\'s masterpieces.
+            The museum opened on 10 August 1793 with an exhibition of 537 paintings, the majority of
+            the works being royal and confiscated church property. Because of structural problems
+            with the building, the museum was closed in 1796 until 1801. The collection was
+            increased under Napoleon and the museum renamed the Musée Napoléon, but after
+            Napoleon\'s
+            abdication many works seized by his armies were returned to their original owners. The
+            collection was further increased during the reigns of Louis XVIII and Charles X, and
+            during the Second French Empire the museum gained 20,000 pieces. Holdings have grown
+            steadily through donations and bequests since the Third Republic. The collection is
+            divided among eight curatorial departments: Egyptian Antiquities; Near Eastern
+            Antiquities; Greek, Etruscan and Roman Antiquities; Islamic Art; Sculpture; Decorative
+            Arts; Paintings; Prints and Drawings.
+        </item>
+        <item>Buda Castle is the historical castle and palace complex of the Hungarian kings in
+            Budapest, and was first completed in 1265. In the past, it has been called Royal Palace
+            (Hungarian: Királyi-palota) and Royal Castle (Hungarian: Királyi Vár, German: Königliche
+            Burg). The castle is a part of the Budapest World Heritage Site, which was declared a
+            Heritage Site in 1987. he castle and its gardens have been decorated with works of art
+            since their foundation in the 14th century. Only written sources speak about the most
+            important medieval works, but detailed pictorial and written information exists about
+            the 19th-century artistic decoration of the palace, which was mainly created by the most
+            important Hungarian artists of the era. Many of the statues survived the destruction
+            during the siege of Budapest in 1944–45, and were later restored. On the other hand,
+            important works of art were destroyed during the controversial reconstruction of the
+            castle during the 1950s and 1960s. The spectacular fountain decorates the western
+            forecourt of the palace. It shows a group of hunters led by King Matthias Corvinus
+            together with hounds, a killed deer, Galeotto Marzio with a hawk, and Szép Ilonka with a
+            doe. This group of people stands between fallen rocks with water running down into a
+            basin. The fountain was made by sculptor Alajos Stróbl. The dead deer was modelled upon
+            a majestic stag killed in 1896 by poachers in the forest owned by Stróbl. The damaged
+            sculpture was restored after the war. Nowadays it is probably the most photographed
+            object in the palace.
+        </item>
+        <item>Peleș Castle is a Neo-Renaissance castle in the Carpathian Mountains, near Sinaia, in
+            Prahova County, Romania, on an existing medieval route linking Transylvania and
+            Wallachia, built between 1873 and 1914. Its inauguration was held in 1883. It was
+            constructed by King Carol I. When the King Carol I of Romania (1839–1914), under whose
+            reign the country gained its independence, first visited the site of the future castle
+            in 1866, he fell in love with the magnificent mountain scenery. In 1872, the Crown
+            purchased 1,300 square kilometres (500 sq mi) of land near the Piatra Arsă River. The
+            estate was named the Royal Estate of Sinaia. The King commissioned the construction of a
+            royal hunting preserve and summer retreat on the property, and the foundation was laid
+            for Peleș Castle on 22 August 1873. Several auxiliary buildings were built
+            simultaneously with the castle: the guards\' chambers, the Economat Building, the Foişor
+            hunting lodge, the royal stables, and a power plant. Peleș became the world\'s first
+            castle fully powered by locally produced electricity.
+            The first three design plans submitted for Peleș were copies of other palaces in Western
+            Europe, and King Carol I rejected them all as lacking originality and being too costly.
+            German architect Johannes Schultz (1876–1883) (only 7 years old?) won the project by
+            presenting a more original plan, something that appealed to the King\'s taste: a grand
+            palatial alpine villa combining different features of classic European styles, mostly
+            following Italian elegance and German aesthetics along Renaissance lines. Works were
+            also led by architect Carol Benesch.[2] Later additions were made between 1893 and 1914
+            by the Czech architect Karel Liman, who designed the towers, including the main central
+            tower, which is 66 metres (217 ft) in height. The Sipot Villa, which served as Liman\'s
+            headquarters during the construction, was built later on. Liman would supervise the
+            building of the nearby Pelisor Chateau (1889–1903, the future residence of King
+            Ferdinand I and Queen Marie of Romania), as well as of King Ferdinand\'s villa in the
+            Royal Sheepfold Meadow.
+        </item>
+        <item>Skansen (the Sconce) is the first open-air museum and zoo in Sweden and is located on
+            the island Djurgården in Stockholm, Sweden. It was founded in 1891 by Artur Hazelius
+            (1833–1901) to show the way of life in the different parts of Sweden before the
+            industrial era. The name "Skansen" has also been used as a noun to refer to other
+            open-air museums and collections of historic structures, particularly in Central and
+            Eastern Europe, but also in the United States, e.g. Old World Wisconsin and Fairplay,
+            Colorado. Skansen attracts more than 1.3 million visitors each year.[1] The many
+            exhibits over the 75 acre (300,000 m²) site include a full replica of an average
+            19th-century town, in which craftsmen in traditional dress such as tanners, shoemakers,
+            silversmiths, bakers and glass-blowers demonstrate their skills in period surroundings.
+            There is even a small patch growing tobacco used for the making of cigarettes. There is
+            also an open-air zoo containing a wide range of Scandinavian animals including the
+            bison, brown bear, moose, grey seal, lynx, otter, red fox, reindeer, wolf, and wolverine
+            (as well as some non-Scandinavian animals because of their popularity). There are also
+            farmsteads where rare breeds of farm animals can be seen.
+            In early December the site\'s central Bollnäs square is host to a popular Christmas
+            market that has been held since 1903, attracting around 25,000 visitors each weekend. In
+            the summer there are displays of folk dancing and concerts.
+        </item>
+        <item>Schönbrunn Palace is a former imperial summer residence located in Vienna, Austria.
+            The 1,441-room Baroque palace is one of the most important architectural, cultural, and
+            historical monuments in the country. Since the mid-1950s it has been a major tourist
+            attraction. The history of the palace and its vast gardens spans over 300 years,
+            reflecting the changing tastes, interests, and aspirations of successive Habsburg
+            monarchs. The sculpted garden space between the palace and the Sun Fountain is called
+            the Great Parterre. The French garden, a big part of the area, was planned by Jean
+            Trehet, a disciple of André Le Nôtre, in 1695. It contains, among other things, a maze.
+            The complex however includes many more attractions: Besides the Tiergarten, an orangerie
+            erected around 1755, staple luxuries of European palaces of its type, a palm house
+            (replacing, by 1882, around ten earlier and smaller glass houses in the western part of
+            the park) is noteworthy. Western parts were turned into English garden style in
+            1828–1852.
+            The area called Meidlinger Vertiefung (engl.: depression of Meidling) to the west of the
+            castle was turned into a play area and drill ground for the children of the Habsburgs in
+            the 19th century. At this time it was common to use parks for the military education of
+            young princes.[4] Whereas the miniature bastion, which was built for this purpose, does
+            not exist anymore, the garden pavilion that was used as shelter still does. It was
+            turned into a café in 1927 and is known as Landtmann’s Jausen Station since 2013.[5]
+            At the outmost western edge, a botanical garden going back to an earlier arboretum was
+            re-arranged in 1828, when the Old Palm House was built. A modern enclosure for
+            Orangutans, was restored besides a restaurant and office rooms in 2009.
+            Schönbrunn is Vienna\'s most popular tourist destination, attended by 2,600,000 visitors
+            in 2010.[6] The whole Schönbrunn complex with Tiergarten Schönbrunn, Palmenhaus,
+            Wüstenhaus and the Wagenburg, accounted for more than five million visitors.[7] At the
+            official website tickets can be purchased in advance for tours. In addition to tours and
+            tour packages, many classical concerts featuring the music of Mozart and his
+            contemporaries can be enjoyed with the added benefit of more time in the spectacular
+            halls, Orangerie, or Schlosstheater.
+            The Summer Night Concert Schönbrunn is held every year.
+        </item>
+        <item>Edinburgh Castle is a historic fortress which dominates the skyline of the city of
+            Edinburgh, Scotland, from its position on the Castle Rock. Archaeologists have
+            established human occupation of the rock since at least the Iron Age (2nd century AD),
+            although the nature of the early settlement is unclear. There has been a royal castle on
+            the rock since at least the reign of David I in the 12th century, and the site continued
+            to be a royal residence until 1633. From the 15th century the castle\'s residential role
+            declined, and by the 17th century it was principally used as military barracks with a
+            large garrison. Its importance as a part of Scotland\'s national heritage was recognised
+            increasingly from the early 19th century onwards, and various restoration programmes
+            have been carried out over the past century and a half. As one of the most important
+            strongholds in the Kingdom of Scotland, Edinburgh Castle was involved in many historical
+            conflicts from the Wars of Scottish Independence in the 14th century to the Jacobite
+            Rising of 1745. Research undertaken in 2014 identified 26 sieges in its 1100-year-old
+            history, giving it a claim to having been "the most besieged place in Great Britain and
+            one of the most attacked in the world".[1]
+            Few of the present buildings pre-date the Lang Siege of the 16th century, when the
+            medieval defences were largely destroyed by artillery bombardment. The most notable
+            exceptions are St Margaret\'s Chapel from the early 12th century, which is regarded as
+            the oldest building in Edinburgh,[2] the Royal Palace and the early-16th-century Great
+            Hall, although the interiors have been much altered from the mid-Victorian period
+            onwards. The castle also houses the Scottish regalia, known as the Honours of Scotland
+            and is the site of the Scottish National War Memorial and the National War Museum of
+            Scotland. The British Army is still responsible for some parts of the castle, although
+            its presence is now largely ceremonial and administrative. Some of the castle buildings
+            house regimental museums which contribute to its presentation as a tourist attraction.
+            The castle, in the care of Historic Scotland, is Scotland\'s most-visited paid tourist
+            attraction, with over 1.4 million visitors in 2013.[3] As the backdrop to the Edinburgh
+            Military Tattoo during the annual Edinburgh International Festival the castle has become
+            a recognisable symbol of Edinburgh and of Scotland and indeed, it is Edinburgh\'s most
+            frequently visited visitor attraction - according to the Edinburgh Visitor Survey, more
+            than 70% of leisure visitors to Edinburgh visited the castle.
+        </item>
+        <item>Le Mont-Saint-Michel is an island commune in Normandy, France. It is located about one
+            kilometre (0.6 miles) off the country\'s northwestern coast, at the mouth of the
+            Couesnon River near Avranches and is 100 hectares (247 acres) in size. As of 2009, the
+            island has a population of 44. The island has held strategic fortifications since
+            ancient times and since the 8th century AD has been the seat of the monastery from which
+            it draws its name. The structural composition of the town exemplifies the feudal society
+            that constructed it: on top, God, the abbey and monastery; below, the great halls; then
+            stores and housing; and at the bottom, outside the walls, houses for fishermen and
+            farmers. Its unique position — on an island just 600 metres from land — made it
+            accessible at low tide to the many pilgrims to its abbey, but defensible as an incoming
+            tide stranded, drove off, or drowned would-be assailants. The Mont remained unconquered
+            during the Hundred Years\' War; a small garrison fended off a full attack by the English
+            in 1433.[2] The reverse benefits of its natural defence were not lost on Louis XI, who
+            turned the Mont into a prison. Thereafter the abbey began to be used more regularly as a
+            jail during the Ancien Régime.
+            One of France\'s most recognizable landmarks, visited by more than 3 million people each
+            year, Mont Saint-Michel and its bay are on the UNESCO list of World Heritage Sites.[3]
+            Over 60 buildings within the commune are protected in France as monuments
+            historiques. The original site was founded by an Irish hermit who gathered a following
+            from the local community. Mont Saint-Michel was used in the sixth and seventh centuries
+            as an Armorican stronghold of Gallo-Roman culture and power until it was ransacked by
+            the Franks, thus ending the trans-channel culture that had stood since the departure of
+            the Romans in 460. From roughly the fifth to the eighth century, Mont Saint-Michel
+            belonged to the territory of Neustria, and in the early ninth century was an important
+            place in the marches of Neustria.
+        </item>
+        <item>Hohenzollern Castle is the ancestral seat of the imperial House of Hohenzollern.[n 1]
+            The third of three castles on the site, it is located atop Berg Hohenzollern, a
+            234-metre (768 ft) bluff rising above the towns of Hechingen and Bisingen in the
+            foothills of the Swabian Alps of central Baden-Württemberg, Germany. A popular tourist
+            destination, Hohenzollern castle has over 300,000 visitors per year, making it one of
+            the most visited castles in Germany. The first fortress on the mountain was constructed
+            in the early 11th century. Over the years the House of Hohenzollern split several times,
+            but the castle remained in the Swabian branch, the dynastic seniors of the
+            Franconian-Brandenburgian cadet branch that later acquired its own imperial throne. This
+            castle was completely destroyed in 1423 after a ten-month siege by the free imperial
+            cities of Swabia. A larger and sturdier structure was constructed from 1454 to 1461,
+            which served as a refuge for the Catholic Swabian Hohenzollerns, including during the
+            Thirty Years\' War. By the end of the 18th century it was thought to have lost its
+            strategic importance and gradually fell into disrepair, leading to the demolition of
+            several dilapidated buildings. Today, only the medieval chapel remains.
+            The final castle was built between 1846 and 1867 as a family memorial[citation needed]
+            by Hohenzollern scion King Frederick William IV of Prussia. Architect Friedrich August
+            Stüler based his design on English Gothic Revival architecture and the Châteaux of the
+            Loire Valley.[2] No member of the Hohenzollern family was in permanent or regular
+            residence when it was completed, and none of the three Deutsche Kaiser of the late 19th
+            and early 20th century German Empire ever occupied the castle; in 1945 it briefly became
+            the home of the former Crown Prince Wilhelm of Germany, son of the last Hohenzollern
+            monarch, Kaiser Wilhelm II.
+            Among the historical artifacts of Prussian history contained in the castle are the Crown
+            of Wilhelm II, some of the personal effects of King Frederick the Great, and a letter
+            from US President George Washington thanking Hohenzollern descendant Baron von Steuben
+            for his service in the American Revolutionary War.
+        </item>
+        <item>The Metéora literally "middle of the sky", "suspended in the air" or "in the heavens
+            above" — etymologically related to meteorology) - is a formation of immense monolithic
+            pillars and hills like huge rounded boulders dominate the local area. It is also
+            associated with one of the largest and most precipitously built complexes of Eastern
+            Orthodox monasteries in Greece, second in importance only to Mount Athos.[1] The six
+            monasteries are built on natural sandstone rock pillars, at the northwestern edge of the
+            Plain of Thessaly near the Pineios river and Pindus Mountains, in central Greece. In the
+            9th century AD, an ascetic group of hermit monks moved up to the ancient pinnacles; they
+            were the first people to inhabit Metéora since the Neolithic Era. They lived in hollows
+            and fissures in the rock towers, some as high as 1800 ft (550m) above the plain. This
+            great height, combined with the sheerness of the cliff walls, kept away all but the most
+            determined visitors. Initially, the hermits led a life of solitude, meeting only on
+            Sundays and special days to worship and pray in a chapel built at the foot of a rock
+            known as Dhoupiani.[1]
+            The exact date of the establishment of the monasteries is unknown. By the late 11th and
+            early 12th centuries, a rudimentary monastic state had formed called the Skete of Stagoi
+            and was centered around the still-standing church of Theotokos (mother of God).[1] By
+            the end of the 12th century, an ascetic community had flocked to Metéora.
+            In 1344, Athanasios Koinovitis from Mount Athos brought a group of followers to Metéora.
+            From 1356 to 1372, he founded the great Meteoron monastery on Broad Rock, which were
+            perfect for the monks; they were safe from political upheaval and had complete control
+            of the entry to the monastery. The only means of reaching it was by climbing a long
+            ladder, which was drawn up whenever the monks felt threatened.
+            At the end of the 14th century, the Byzantine Empire\'s 800-year reign over northern
+            Greece was being increasingly threatened by Turkish raiders who wanted control over the
+            fertile plain of Thessaly. The hermit monks, seeking a retreat from the expanding
+            Turkish occupation, found the inaccessible rock pillars of Meteora to be an ideal
+            refuge. More than 20 monasteries were built, beginning in the 14th century.[1] Six
+            remain today.
+            In 1517, Nectarios and Theophanes built the monastery of Varlaám, which was reputed to
+            house the finger of St John and the shoulder blade of St Andrew.
+            Access to the monasteries was originally (and deliberately) difficult, requiring either
+            long ladders lashed together or large nets used to haul up both goods and people. This
+            required quite a leap of faith – the ropes were replaced, so the story goes, only "when
+            the Lord let them break".[8] In the words of UNESCO, "The net in which intrepid pilgrims
+            were hoisted up vertically alongside the 373 metres (1,224 ft) cliff where the Varlaam
+            monastery dominates the valley symbolizes the fragility of a traditional way of life
+            that is threatened with extinction."
+        </item>
+        <item>Vergina is a small town in northern Greece, located in the regional unit of Imathia,
+            Central Macedonia. The town is better known for its remains of Aigai, the first capital
+            of Macedon. It was here in 336 BC that Philip II was assassinated in the theatre and
+            Alexander the Great was proclaimed king. Aigai has been awarded UNESCO World Heritage
+            Site status as "an exceptional testimony to a significant development in European
+            civilization, at the transition from classical city-state to the imperial structure of
+            the Hellenistic and Roman periods". During the 8th and 7th century BC the area around
+            Vergina was ruled by Illyrian tribes. Most scholars now believe that the Macedonians
+            expelled the Illyrians and then established their capital at Aigai.[3]
+            Ancient sources give conflicting accounts of the origins of the Macedonian
+            dynasty.[4][5] Alexander I is the first truly historic figure and, based on the line of
+            succession, the beginnings of the Macedonian dynasty have been traditionally dated to
+            750 BC.[6] Herodotus says[7] that the Argead dynasty was an ancient Greek royal house
+            led by Perdiccas I who fled from Argos, in approximately 650 BC.[8]
+            Aigai is said to mean "city of goats" (αἴξ is the Greek word for goat), and Diodorus
+            Siculus says it was named so by Perdiccas I who was advised by the Pythian priestess to
+            build the capital city of his kingdom where goats led him.[9]
+            From archaeology it now seems certain that Aigai developed and remained until the end an
+            organised collection of villages spatially representing the aristocratic structure of
+            tribes centred on the power of the king.[10] Indeed, Aigai never became a large city and
+            most of its inhabitants lived in surrounding villages.[11]
+            From Aigai the Macedonians spread to the central part of Macedonia and displaced the
+            local population of Pierians.
+            From 513 to 480 BC Aigai was part of the Persian Empire, but Amyntas I managed to
+            maintain its relative independence, avoid Satrapy and extend its possessions. The city
+            wall was built in the 5th century probably by Perdiccas II. At the end of the 5th
+            century Archelaus I brought to his court artists, poets, and philosophers from all over
+            the Greek world: it was, for example, at Aigai that Euripides wrote and presented his
+            last tragedies.
+            At the beginning of the 4th century BC, Archelaus transferred the Macedonian capital
+            north-east to Pella on the central Macedonian plain .[12] Nevertheless, Aegae retained
+            its role as the sacred city of the Macedonian kingdom, the site of the traditional cult
+            centres, a royal palace and the royal tombs. For this reason it was here that Philip II
+            was attending the wedding of his daughter Cleopatra to King Alexander of Epirus when he
+            was murdered by his bodyguard in the theatre.[13] His was the most lavish funeral
+            ceremony of historic times held in Greece. Laid on an elaborate gold and ivory deathbed
+            wearing his precious golden oak wreath, the king was surrendered, like a new Hercules,
+            to the funeral pyre.
+            The bitter struggles between the heirs of Alexander, the Diadochi, in the 3rd century
+            adversely affected the city. In 276 BC the Gauls of Pyrrhus plundered many of the tombs.
+        </item>
+    </array>
+
+    <array name="destination_date">
+        <item>MON-SAT 9-18</item>
+        <item>MON-SAT 8-20</item>
+        <item>MON-SAT 10-20</item>
+        <item>MON-SAT 12-18</item>
+        <item>MON-SAT 10-20</item>
+        <item>MON-SAT 8-20</item>
+        <item>MON-SAT 9-18</item>
+        <item>MON-SAT 10-20</item>
+        <item>MON-SAT 12-18</item>
+        <item>MON-SAT 10-20</item>
+        <item>MON-SAT 12-18</item>
+    </array>
+    <array name="destination_location">
+        <item>Michaelerkuppel, 1010 Wien, Austria</item>
+        <item>75001 Paris, France</item>
+        <item>Budapest, Szent György tér 2, 1014 Hungary</item>
+        <item>Aleea Pelesului 2, Sinaia 106100, Romania</item>
+        <item>Djurgårdsslätten 49-51, 115 21 Stockholm, Sweden</item>
+        <item>Schönbrunner Schloßstraße 47, 1130 Wien, Austria</item>
+        <item>Castlehill, Edinburgh EH1 2NG, United Kingdom</item>
+        <item>50170 Mont Saint-Michel, France</item>
+        <item>72379 Burg Hohenzollern, Germany</item>
+        <item>Kalabaka, Greece</item>
+        <item>Vergina 590 31, Greece</item>
+    </array>
+
+    <integer-array name="destination_icon">
+        <item>@drawable/ic_hofburg</item>
+        <item>@drawable/ic_louvre</item>
+        <item>@drawable/ic_buda_castle</item>
+        <item>@drawable/ic_peles</item>
+        <item>@drawable/ic_skansen</item>
+        <item>@drawable/ic_schonbrun</item>
+        <item>@drawable/ic_edinburgh</item>
+        <item>@drawable/ic_saint_michel</item>
+        <item>@drawable/ic_hohenzollern</item>
+        <item>@drawable/ic_meteora</item>
+        <item>@drawable/ic_vergina</item>
+    </integer-array>
+
+
+    <array name="trap_name">
+        <item>Dunn\'s River Falls</item>
+        <item>Avenue of Stars</item>
+        <item>Times Square</item>
+        <item>Nanjing Dong Lu</item>
+        <item>Britain at War Museum</item>
+        <item>Damnoen Sadouk Floating Market</item>
+        <item>Central Tokio</item>
+        <item>Tower of Pisa</item>
+        <item>Sydney Fish Market</item>
+        <item>Benoa, Bali, Indonesia</item>
+    </array>
+
+    <array name="trap_info">
+        <item>
+            This admittedly pretty series of waterfalls in a lush forest has been transformed into a
+            death march for millions of cruise shippers on shore leave.
+            Visitors slog up a crowded, hillside holding hands with strangers like worker ants on a
+            particularly gruesome mission.
+        </item>
+        <item>
+            Built in 2004, this one is designed with mainland Chinese tourists in mind. You’ll find
+            them here in droves, led by flag-toting tour guides as they stumble toward the
+            promenade\’s highlight, a statue of Bruce Lee in kung fu pose, while mall music blurps
+            out from tiny speakers.
+            A lack of comfortable resting areas and focus on souvenir photo booths makes the whole
+            experience about as satisfying as a sneeze that doesn\'t quite come out.
+        </item>
+        <item>
+            A big TV, a bunch of outdoor advertising and chain stores you can find anywhere in the
+            United States. Locals avoid it with almost the same assiduity as empty cabs do, meaning
+            once you\'re in, there\'s no quick escape.
+        </item>
+        <item>
+            It bills itself as the “best shopping street in China,” but in reality it\'s far from
+            that. Nanjing Dong Lu, whose history can be traced back 150 years ago, was once known as
+            the
+            “Number One Commercial Street in China.” Most guidebooks recommend tourists check it out
+            for its history.
+        </item>
+        <item>
+            The heavily advertised Britain at War Experience draws thousands to experience wartime
+            London. There are a few decent artifacts, but mostly what visitors get are amateur
+            tableaus featuring department store mannequin limbs slathered with fake blood meant to
+            represent Blitz carnage.
+        </item>
+        <item>
+            There are at least a dozen floating markets in and around Bangkok. Yet every tourist
+            wants to hit the same one: Damnoen Saduak. It used to be a legitimate place for locals
+            to enjoy some boat noodles or shop for produce and knickknacks. Today, thanks to every
+            tour company in the world pushing it on tourists, it\'s about as authentic as that pack
+            of Viagra for sale in a back soi on Sukhumvit Road.
+        </item>
+        <item>
+            A heap of concrete, steel, traffic and trains. Lots of in-your-face advertising. And the
+            Tokyo Tower centerpiece is an ugly, unoriginal, high-rise time eater. You can also
+            forget about its much-ballyhooed usurper, the Sky Tree in Sumida-ku.
+        </item>
+        <item>
+            The Leaning Tower of Pisa may have an interesting history, but as a tourist attraction,
+            there isn\'t much to say about it. Apart from the fact that it actually leans.
+            After the initial wonderment over how such bad architecture has managed to last so long,
+            there’s nothing much left to do apart from climbing the tower. But that’s not before you
+            stand in a long line of tourists willing to part with 15 euros for the opportunity to
+            climb 300 dizzying spiral steps within a specified time slot.
+        </item>
+        <item>
+            A visit to the Sydney Fish Market is nearly as fatal for tourists as it is for fish.
+            Plastic seats on metal stands overlook the dirty and aptly named Blackwattle Bay.
+            Heritage falls apart on the harbor\'s shore, iron rusts and there is no foreshore
+            access.
+            Two huge cement factories that dominate the view around the bay pollute the water.
+        </item>
+        <item>
+            If this is amazing snorkeling, please jam our snorkels with seaweed.
+            The water is murky and short of fish and you have to dodge banana boats and jet skis.
+            If you’ve got a thing for dead coral, however, please feel free to sign up for a glass
+            bottomed boat ride.
+        </item>
+    </array>
+
+    <integer-array name="trap_icon">
+        <item>@drawable/ic_dunn</item>
+        <item>@drawable/ic_avenue</item>
+        <item>@drawable/ic_square</item>
+        <item>@drawable/ic_shanghai</item>
+        <item>@drawable/ic_war</item>
+        <item>@drawable/ic_market</item>
+        <item>@drawable/ic_tokio</item>
+        <item>@drawable/ic_pisa</item>
+        <item>@drawable/ic_sydney</item>
+        <item>@drawable/ic_indonesia</item>
+        <item>@drawable/ic_vergina</item>
+    </integer-array>
+
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="error_creating_file">There was an error accessing the camera</string>
+    <string name="toast_permission_denied">You do not have permission to use camera. Change access from Settings</string>
+
+    <!-- postcards details-->
+    <string name="postcard_details_destination">Destination: %s</string>
+    <string name="postcard_details_date">Date: %s</string>
+    <string name="postcard_details_edit_destination">Destination</string>
+    <string name="postcard_details_edit_date">Date</string>
+    <string name="postcard_details_edit_text">Here enter the postcard message.</string>
+    <string name="postcard_details_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="postcard_details_edit">EDIT</string>
+    <string name="postcard_details_delete">DELETE</string>
+    <string name="postcard_details_save">SAVE</string>
+    <string name="postcard_validation_message">Please fill in all the fields!</string>
+    <string name="postcard_confirmation_message">Are you sure you want to discard the filled in data?</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

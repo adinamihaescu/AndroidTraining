@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_top_slide">12dp</dimen>
+    <dimen name="margin_lateral_slide">40dp</dimen>
+    <dimen name="width_button">250dp</dimen>
+    <dimen name="margin_top_image">84dp</dimen>
+
+    <dimen name="title_size">18sp</dimen>
+    <dimen name="message_size">14sp</dimen>
+    <dimen name="app_bar_height">300dp</dimen>
+    <dimen name="details_app_bar_height">350dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="destination_image_width">180dp</dimen>
+    <dimen name="destination_image_height">125dp</dimen>
+    <dimen name="overlay_height">40dp</dimen>
+    <dimen name="drawable_padding">5dp</dimen>
+    <dimen name="margin_left">5dp</dimen>
+    <dimen name="item_padding">3dp</dimen>
+
+    <!-- postcards -->
+    <dimen name="postcard_item_height">120dp</dimen>
+
+    <!-- postcard details -->
+    <dimen name="postcard_margin_strip_size">8dp</dimen>
+    <dimen name="postcard_content_margin_start">20dp</dimen>
+    <dimen name="postcard_content_margin_end">20dp</dimen>
+    <dimen name="postcard_button_height">35dp</dimen>
+    <dimen name="postcard_padding_start_end">10dp</dimen>
+    <dimen name="postcard_padding_top_bottom">20dp</dimen>
+
+
+    <!-- Maps -->
+    <dimen name="maps_padding">5dp</dimen>
+
+</resources>

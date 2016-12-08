@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#455560</color>
+    <color name="colorPrimaryDark">#2B3B46</color>
+    <color name="colorAccent">#d3d3d3</color>
+    <color name="colorButton">#1D92CA</color>
+    <color name="colorItemTitle">#DB680F</color>
+    <color name="colorPhotographyBackground">#E0D9C7</color>
+    <color name="colorPhotographyOverlay">#847D6B</color>
+
+    <color name="colorPostcardBackground">#E0D9C7</color>
+</resources>

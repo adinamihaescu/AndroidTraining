@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/item_padding">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="@dimen/destination_image_width"
+        android:layout_height="@dimen/destination_image_height"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/destination_name_view"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/title_size"
+        android:textColor="@color/colorItemTitle"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_toEndOf="@+id/image_view"
+        />
+
+    <TextView
+        android:id="@+id/time_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/destination_name_view"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_toEndOf="@+id/image_view"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:drawableStart="@drawable/ic_time"
+        android:paddingTop="@dimen/drawable_padding" />
+
+    <TextView
+        android:id="@+id/location_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_below="@+id/time_view"
+        android:layout_toEndOf="@+id/image_view"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:drawableStart="@drawable/ic_map" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/description_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location_view"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_toEndOf="@+id/image_view"
+        android:ellipsize="end"
+        android:maxLines="3"/>
+
+</RelativeLayout>

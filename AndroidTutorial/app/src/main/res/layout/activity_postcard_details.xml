@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPostcardBackground"
+    android:paddingBottom="@dimen/postcard_padding_top_bottom"
+    android:paddingEnd="@dimen/postcard_padding_start_end"
+    android:paddingStart="@dimen/postcard_padding_start_end"
+    android:paddingTop="@dimen/postcard_padding_top_bottom">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/img_postcard_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_postcard_photo" />
+
+        <!-- the content of the postcard -->
+        <LinearLayout
+            android:id="@+id/ll_postcard_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll_postcard_buttons"
+            android:layout_below="@+id/img_postcard_photo"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_postcard_destination"
+                style="@style/PostcardText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/postcard_content_margin_end"
+                android:layout_marginStart="@dimen/postcard_content_margin_start"
+                android:text="@string/postcard_details_destination" />
+
+            <TextView
+                android:id="@+id/tv_postcard_date"
+                style="@style/PostcardText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/postcard_content_margin_end"
+                android:layout_marginStart="@dimen/postcard_content_margin_start"
+                android:text="@string/postcard_details_date" />
+
+            <TextView
+                android:id="@+id/tv_postcard_text"
+                style="@style/PostcardText"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginEnd="@dimen/postcard_content_margin_end"
+                android:layout_marginStart="@dimen/postcard_content_margin_start"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:scrollbars="vertical"
+                android:text="@string/postcard_details_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_postcard_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="@dimen/postcard_content_margin_start"
+            android:paddingTop="10dp">
+
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/postcard_button_height"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:text="@string/postcard_details_edit"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/postcard_button_height"
+                android:layout_weight="1"
+                android:background="@android:color/holo_red_light"
+                android:text="@string/postcard_details_delete"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <include
+        layout="@layout/layout_postcard_margins"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
+
+

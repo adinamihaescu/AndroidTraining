@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<fragment
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tutorial.android.endava.androidtutorial.chapter_travel.MapsActivity" />
+    <ImageButton
+        android:id="@+id/change_terrain"
+        android:background="@drawable/ic_map_change"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/maps_padding"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:hint="@string/hint_latitude"
+            android:id="@+id/latitude_edit_text" />
+
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:hint="@string/hint_longitude"
+            android:id="@+id/longitude_edit_text" />
+
+        <Button
+            android:id="@+id/add_marker_button"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorButton"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/maps_padding"
+            android:text="@string/add_marker"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

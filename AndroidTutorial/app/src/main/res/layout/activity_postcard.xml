@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPostcardBackground"
+    android:paddingTop="20dp"
+    tools:context="tutorial.android.endava.androidtutorial.chapter_layouts.PostcardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- simple linear layout -->
+
+        <LinearLayout
+            android:id="@+id/postcard_item_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/postcard_item_height"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_stamp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="TO: Jane Doe"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FROM: John Doe"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <!-- relative layout with some complexity -->
+        <RelativeLayout
+            android:id="@+id/postcard_item_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/postcard_item_height"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/ic_stamp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:text="TO: Jane Doe"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FROM: John Doe"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <include
+                layout="@layout/layout_postcard_margins"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <!-- more complex releative layout -->
+        <RelativeLayout
+            android:id="@+id/postcard_item_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/postcard_item_height"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_postcard_photo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/ic_stamp" />
+
+                <TextView
+                    android:id="@+id/tv_postcard_to"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@+id/img_postcard_photo"
+                    android:text="TO: Jane Doe"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/tv_postcard_from"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_postcard_to"
+                    android:layout_toRightOf="@+id/img_postcard_photo"
+                    android:text="FROM: John Doe"
+                    android:textColor="@android:color/black" />
+
+            </RelativeLayout>
+
+            <include
+                layout="@layout/layout_postcard_margins"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
